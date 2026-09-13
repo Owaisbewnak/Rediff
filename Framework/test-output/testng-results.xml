@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="18" total="30" passed="4" failed="0" skipped="8">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-11T18:15:53 IST" name="Manage Porfolio Suite" finished-at="2026-08-11T18:17:00 IST" duration-ms="67255">
+    <groups>
+    </groups>
+    <test started-at="2026-08-11T18:15:53 IST" name="Manage Porfolio Suite : Create Portfolio Method 1" finished-at="2026-08-11T18:15:53 IST" duration-ms="465">
+      <class name="testcasesrediffPortfolio.ManageportfolioTest">
+        <test-method signature="createPortfolio(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageportfolioTest@58a90037]" started-at="2026-08-11T18:15:53 IST" name="createPortfolio" finished-at="2026-08-11T18:15:53 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7188af83]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[RunMode in the Test Data is not True]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: RunMode in the Test Data is not True
+at testbase.BaseTest.beforeTest(BaseTest.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at runner.TestNGRunner.run(TestNGRunner.java:42)
+at runner.JSONRunner.main(JSONRunner.java:125)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPortfolio -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageportfolioTest@58a90037]" started-at="2026-08-11T18:15:53 IST" name="beforeMethod" finished-at="2026-08-11T18:15:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7188af83]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageportfolioTest@58a90037]" started-at="2026-08-11T18:15:53 IST" name="afterMethod" finished-at="2026-08-11T18:15:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7188af83]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcasesrediffPortfolio.ManageportfolioTest -->
+      <class name="testcasesrediffPortfolio.ManageSessionTest">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@3d8314f0]" started-at="2026-08-11T18:15:53 IST" name="beforeTest" finished-at="2026-08-11T18:15:53 IST" duration-ms="420" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7188af83]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[RunMode in the Test Data is not True]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: RunMode in the Test Data is not True
+at testbase.BaseTest.beforeTest(BaseTest.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at runner.TestNGRunner.run(TestNGRunner.java:42)
+at runner.JSONRunner.main(JSONRunner.java:125)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@3d8314f0]" started-at="2026-08-11T18:15:53 IST" name="beforeMethod" finished-at="2026-08-11T18:15:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7188af83]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="doLogin()[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@3d8314f0]" started-at="2026-08-11T18:15:53 IST" name="doLogin" finished-at="2026-08-11T18:15:53 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[RunMode in the Test Data is not True]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: RunMode in the Test Data is not True
+at testbase.BaseTest.beforeTest(BaseTest.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at runner.TestNGRunner.run(TestNGRunner.java:42)
+at runner.JSONRunner.main(JSONRunner.java:125)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@3d8314f0]" started-at="2026-08-11T18:15:53 IST" name="afterMethod" finished-at="2026-08-11T18:15:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7188af83]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@3d8314f0]" started-at="2026-08-11T18:15:53 IST" name="afterTest" finished-at="2026-08-11T18:15:53 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcasesrediffPortfolio.ManageSessionTest -->
+    </test> <!-- Manage Porfolio Suite : Create Portfolio Method 1 -->
+    <test started-at="2026-08-11T18:15:53 IST" name="Manage Porfolio Suite : Create Portfolio Method 2" finished-at="2026-08-11T18:16:27 IST" duration-ms="34082">
+      <class name="testcasesrediffPortfolio.ManageportfolioTest">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageportfolioTest@19dc67c2]" started-at="2026-08-11T18:16:21 IST" name="beforeMethod" finished-at="2026-08-11T18:16:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f339eae]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createPortfolio(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageportfolioTest@19dc67c2]" started-at="2026-08-11T18:16:21 IST" name="createPortfolio" finished-at="2026-08-11T18:16:26 IST" duration-ms="5524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f339eae]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPortfolio -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageportfolioTest@19dc67c2]" started-at="2026-08-11T18:16:26 IST" name="afterMethod" finished-at="2026-08-11T18:16:26 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f339eae]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcasesrediffPortfolio.ManageportfolioTest -->
+      <class name="testcasesrediffPortfolio.ManageSessionTest">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@77be656f]" started-at="2026-08-11T18:15:53 IST" name="beforeTest" finished-at="2026-08-11T18:15:53 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f339eae]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@77be656f]" started-at="2026-08-11T18:15:53 IST" name="beforeMethod" finished-at="2026-08-11T18:15:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f339eae]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="doLogin()[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@77be656f]" started-at="2026-08-11T18:15:53 IST" name="doLogin" finished-at="2026-08-11T18:16:21 IST" duration-ms="27870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@77be656f]" started-at="2026-08-11T18:16:21 IST" name="afterMethod" finished-at="2026-08-11T18:16:21 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f339eae]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@77be656f]" started-at="2026-08-11T18:16:26 IST" name="afterTest" finished-at="2026-08-11T18:16:27 IST" duration-ms="677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f339eae]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcasesrediffPortfolio.ManageSessionTest -->
+    </test> <!-- Manage Porfolio Suite : Create Portfolio Method 2 -->
+    <test started-at="2026-08-11T18:16:27 IST" name="Manage Porfolio Suite : Create Portfolio Method 3" finished-at="2026-08-11T18:16:27 IST" duration-ms="8">
+      <class name="testcasesrediffPortfolio.ManageportfolioTest">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageportfolioTest@23a5fd2]" started-at="2026-08-11T18:16:27 IST" name="beforeMethod" finished-at="2026-08-11T18:16:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@476a736d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createPortfolio(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageportfolioTest@23a5fd2]" started-at="2026-08-11T18:16:27 IST" name="createPortfolio" finished-at="2026-08-11T18:16:27 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@476a736d]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[RunMode in the Test Data is not True]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: RunMode in the Test Data is not True
+at testbase.BaseTest.beforeTest(BaseTest.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at runner.TestNGRunner.run(TestNGRunner.java:42)
+at runner.JSONRunner.main(JSONRunner.java:125)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPortfolio -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageportfolioTest@23a5fd2]" started-at="2026-08-11T18:16:27 IST" name="afterMethod" finished-at="2026-08-11T18:16:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@476a736d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcasesrediffPortfolio.ManageportfolioTest -->
+      <class name="testcasesrediffPortfolio.ManageSessionTest">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@62bd765]" started-at="2026-08-11T18:16:27 IST" name="beforeTest" finished-at="2026-08-11T18:16:27 IST" duration-ms="2" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@476a736d]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[RunMode in the Test Data is not True]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: RunMode in the Test Data is not True
+at testbase.BaseTest.beforeTest(BaseTest.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at runner.TestNGRunner.run(TestNGRunner.java:42)
+at runner.JSONRunner.main(JSONRunner.java:125)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@62bd765]" started-at="2026-08-11T18:16:27 IST" name="beforeMethod" finished-at="2026-08-11T18:16:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@476a736d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="doLogin()[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@62bd765]" started-at="2026-08-11T18:16:27 IST" name="doLogin" finished-at="2026-08-11T18:16:27 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[RunMode in the Test Data is not True]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: RunMode in the Test Data is not True
+at testbase.BaseTest.beforeTest(BaseTest.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at runner.TestNGRunner.run(TestNGRunner.java:42)
+at runner.JSONRunner.main(JSONRunner.java:125)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@62bd765]" started-at="2026-08-11T18:16:27 IST" name="afterMethod" finished-at="2026-08-11T18:16:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@476a736d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@62bd765]" started-at="2026-08-11T18:16:27 IST" name="afterTest" finished-at="2026-08-11T18:16:27 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcasesrediffPortfolio.ManageSessionTest -->
+    </test> <!-- Manage Porfolio Suite : Create Portfolio Method 3 -->
+    <test started-at="2026-08-11T18:16:27 IST" name="Manage Porfolio Suite : Delete Portfolio Method 1" finished-at="2026-08-11T18:16:27 IST" duration-ms="7">
+      <class name="testcasesrediffPortfolio.ManageportfolioTest">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageportfolioTest@58fdd99]" started-at="2026-08-11T18:16:27 IST" name="beforeMethod" finished-at="2026-08-11T18:16:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@352e787a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="deleteportfolio(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageportfolioTest@58fdd99]" started-at="2026-08-11T18:16:27 IST" name="deleteportfolio" finished-at="2026-08-11T18:16:27 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@352e787a]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[RunMode in the Test Data is not True]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: RunMode in the Test Data is not True
+at testbase.BaseTest.beforeTest(BaseTest.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at runner.TestNGRunner.run(TestNGRunner.java:42)
+at runner.JSONRunner.main(JSONRunner.java:125)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteportfolio -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageportfolioTest@58fdd99]" started-at="2026-08-11T18:16:27 IST" name="afterMethod" finished-at="2026-08-11T18:16:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@352e787a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcasesrediffPortfolio.ManageportfolioTest -->
+      <class name="testcasesrediffPortfolio.ManageSessionTest">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@551bdc27]" started-at="2026-08-11T18:16:27 IST" name="beforeTest" finished-at="2026-08-11T18:16:27 IST" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@352e787a]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[RunMode in the Test Data is not True]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: RunMode in the Test Data is not True
+at testbase.BaseTest.beforeTest(BaseTest.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at runner.TestNGRunner.run(TestNGRunner.java:42)
+at runner.JSONRunner.main(JSONRunner.java:125)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="doLogin()[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@551bdc27]" started-at="2026-08-11T18:16:27 IST" name="doLogin" finished-at="2026-08-11T18:16:27 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[RunMode in the Test Data is not True]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: RunMode in the Test Data is not True
+at testbase.BaseTest.beforeTest(BaseTest.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at runner.TestNGRunner.run(TestNGRunner.java:42)
+at runner.JSONRunner.main(JSONRunner.java:125)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@551bdc27]" started-at="2026-08-11T18:16:27 IST" name="beforeMethod" finished-at="2026-08-11T18:16:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@352e787a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@551bdc27]" started-at="2026-08-11T18:16:27 IST" name="afterMethod" finished-at="2026-08-11T18:16:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@352e787a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@551bdc27]" started-at="2026-08-11T18:16:27 IST" name="afterTest" finished-at="2026-08-11T18:16:27 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcasesrediffPortfolio.ManageSessionTest -->
+    </test> <!-- Manage Porfolio Suite : Delete Portfolio Method 1 -->
+    <test started-at="2026-08-11T18:16:27 IST" name="Manage Porfolio Suite : Delete Portfolio Method 2" finished-at="2026-08-11T18:17:00 IST" duration-ms="32616">
+      <class name="testcasesrediffPortfolio.ManageportfolioTest">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageportfolioTest@ba8d91c]" started-at="2026-08-11T18:16:53 IST" name="beforeMethod" finished-at="2026-08-11T18:16:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@33d53216]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="deleteportfolio(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageportfolioTest@ba8d91c]" started-at="2026-08-11T18:16:53 IST" name="deleteportfolio" finished-at="2026-08-11T18:16:59 IST" duration-ms="6224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@33d53216]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteportfolio -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageportfolioTest@ba8d91c]" started-at="2026-08-11T18:16:59 IST" name="afterMethod" finished-at="2026-08-11T18:16:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@33d53216]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcasesrediffPortfolio.ManageportfolioTest -->
+      <class name="testcasesrediffPortfolio.ManageSessionTest">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@70b0b186]" started-at="2026-08-11T18:16:27 IST" name="beforeTest" finished-at="2026-08-11T18:16:27 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@33d53216]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@70b0b186]" started-at="2026-08-11T18:16:27 IST" name="beforeMethod" finished-at="2026-08-11T18:16:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@33d53216]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="doLogin()[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@70b0b186]" started-at="2026-08-11T18:16:27 IST" name="doLogin" finished-at="2026-08-11T18:16:53 IST" duration-ms="26021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@70b0b186]" started-at="2026-08-11T18:16:53 IST" name="afterMethod" finished-at="2026-08-11T18:16:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@33d53216]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@70b0b186]" started-at="2026-08-11T18:16:59 IST" name="afterTest" finished-at="2026-08-11T18:17:00 IST" duration-ms="361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@33d53216]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcasesrediffPortfolio.ManageSessionTest -->
+    </test> <!-- Manage Porfolio Suite : Delete Portfolio Method 2 -->
+    <test started-at="2026-08-11T18:17:00 IST" name="Manage Porfolio Suite : Delete Portfolio Method 3" finished-at="2026-08-11T18:17:00 IST" duration-ms="4">
+      <class name="testcasesrediffPortfolio.ManageportfolioTest">
+        <test-method signature="deleteportfolio(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageportfolioTest@3d36e4cd]" started-at="2026-08-11T18:17:00 IST" name="deleteportfolio" finished-at="2026-08-11T18:17:00 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2de50ee4]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[RunMode in the Test Data is not True]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: RunMode in the Test Data is not True
+at testbase.BaseTest.beforeTest(BaseTest.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at runner.TestNGRunner.run(TestNGRunner.java:42)
+at runner.JSONRunner.main(JSONRunner.java:125)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteportfolio -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageportfolioTest@3d36e4cd]" started-at="2026-08-11T18:17:00 IST" name="beforeMethod" finished-at="2026-08-11T18:17:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2de50ee4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageportfolioTest@3d36e4cd]" started-at="2026-08-11T18:17:00 IST" name="afterMethod" finished-at="2026-08-11T18:17:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2de50ee4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcasesrediffPortfolio.ManageportfolioTest -->
+      <class name="testcasesrediffPortfolio.ManageSessionTest">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@709ba3fb]" started-at="2026-08-11T18:17:00 IST" name="beforeTest" finished-at="2026-08-11T18:17:00 IST" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2de50ee4]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[RunMode in the Test Data is not True]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: RunMode in the Test Data is not True
+at testbase.BaseTest.beforeTest(BaseTest.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at runner.TestNGRunner.run(TestNGRunner.java:42)
+at runner.JSONRunner.main(JSONRunner.java:125)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="doLogin()[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@709ba3fb]" started-at="2026-08-11T18:17:00 IST" name="doLogin" finished-at="2026-08-11T18:17:00 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[RunMode in the Test Data is not True]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: RunMode in the Test Data is not True
+at testbase.BaseTest.beforeTest(BaseTest.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at runner.TestNGRunner.run(TestNGRunner.java:42)
+at runner.JSONRunner.main(JSONRunner.java:125)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@709ba3fb]" started-at="2026-08-11T18:17:00 IST" name="beforeMethod" finished-at="2026-08-11T18:17:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2de50ee4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@709ba3fb]" started-at="2026-08-11T18:17:00 IST" name="afterMethod" finished-at="2026-08-11T18:17:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2de50ee4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:testcasesrediffPortfolio.ManageSessionTest@709ba3fb]" started-at="2026-08-11T18:17:00 IST" name="afterTest" finished-at="2026-08-11T18:17:00 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcasesrediffPortfolio.ManageSessionTest -->
+    </test> <!-- Manage Porfolio Suite : Delete Portfolio Method 3 -->
+  </suite> <!-- Manage Porfolio Suite -->
+</testng-results>

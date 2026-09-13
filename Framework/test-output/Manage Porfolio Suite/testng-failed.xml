@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Manage Porfolio Suite]">
+  <test thread-count="5" name="Manage Porfolio Suite : Create Portfolio Method 1(failed)">
+    <parameter name="dataSetID" value="0"/>
+    <parameter name="action" value="addStock"/>
+    <parameter name="testdatajsonfile" value="C:\Users\owais\eclipse-workspace\Framework\src\test\resources\projectJSONs\testJSONData\portfolioData.json"/>
+    <parameter name="dataflag" value="createnewportfolio"/>
+    <parameter name="suiteName" value="Manage Porfolio Suite"/>
+    <classes>
+      <class name="testcasesrediffPortfolio.ManageSessionTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="doLogin"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcasesrediffPortfolio.ManageSessionTest -->
+      <class name="testcasesrediffPortfolio.ManageportfolioTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="createPortfolio"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcasesrediffPortfolio.ManageportfolioTest -->
+    </classes>
+  </test> <!-- Manage Porfolio Suite : Create Portfolio Method 1(failed) -->
+  <test thread-count="5" name="Manage Porfolio Suite : Create Portfolio Method 3(failed)">
+    <parameter name="dataSetID" value="2"/>
+    <parameter name="action" value="addStock"/>
+    <parameter name="testdatajsonfile" value="C:\Users\owais\eclipse-workspace\Framework\src\test\resources\projectJSONs\testJSONData\portfolioData.json"/>
+    <parameter name="dataflag" value="createnewportfolio"/>
+    <parameter name="suiteName" value="Manage Porfolio Suite"/>
+    <classes>
+      <class name="testcasesrediffPortfolio.ManageSessionTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="doLogin"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testcasesrediffPortfolio.ManageSessionTest -->
+      <class name="testcasesrediffPortfolio.ManageportfolioTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="createPortfolio"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testcasesrediffPortfolio.ManageportfolioTest -->
+    </classes>
+  </test> <!-- Manage Porfolio Suite : Create Portfolio Method 3(failed) -->
+  <test thread-count="5" name="Manage Porfolio Suite : Delete Portfolio Method 1(failed)">
+    <parameter name="dataSetID" value="0"/>
+    <parameter name="action" value="addStock"/>
+    <parameter name="testdatajsonfile" value="C:\Users\owais\eclipse-workspace\Framework\src\test\resources\projectJSONs\testJSONData\portfolioData.json"/>
+    <parameter name="dataflag" value="deletenewportfolio"/>
+    <parameter name="suiteName" value="Manage Porfolio Suite"/>
+    <classes>
+      <class name="testcasesrediffPortfolio.ManageSessionTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="doLogin"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcasesrediffPortfolio.ManageSessionTest -->
+      <class name="testcasesrediffPortfolio.ManageportfolioTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="deleteportfolio"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testcasesrediffPortfolio.ManageportfolioTest -->
+    </classes>
+  </test> <!-- Manage Porfolio Suite : Delete Portfolio Method 1(failed) -->
+  <test thread-count="5" name="Manage Porfolio Suite : Delete Portfolio Method 3(failed)">
+    <parameter name="dataSetID" value="2"/>
+    <parameter name="action" value="addStock"/>
+    <parameter name="testdatajsonfile" value="C:\Users\owais\eclipse-workspace\Framework\src\test\resources\projectJSONs\testJSONData\portfolioData.json"/>
+    <parameter name="dataflag" value="deletenewportfolio"/>
+    <parameter name="suiteName" value="Manage Porfolio Suite"/>
+    <classes>
+      <class name="testcasesrediffPortfolio.ManageSessionTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="doLogin"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcasesrediffPortfolio.ManageSessionTest -->
+      <class name="testcasesrediffPortfolio.ManageportfolioTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="deleteportfolio"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testcasesrediffPortfolio.ManageportfolioTest -->
+    </classes>
+  </test> <!-- Manage Porfolio Suite : Delete Portfolio Method 3(failed) -->
+</suite> <!-- Failed suite [Manage Porfolio Suite] -->
