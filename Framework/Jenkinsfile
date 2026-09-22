@@ -2,8 +2,7 @@ pipeline {
     agent any
 
     tools {
-        // These names MUST match what you set in
-        // Manage Jenkins -> Global Tool Configuration
+        // Make sure these match your Global Tool Configuration!
         jdk 'JDK11'
         maven 'Maven3'
     }
@@ -16,25 +15,33 @@ pipeline {
             }
         }
 
+        // We must tell Jenkins to look inside the 'Framework' folder
+        // because that's where you pushed your pom.xml
         stage('Verify Environment') {
             steps {
-                echo 'Checking Java and Maven versions...'
-                bat 'java -version'
-                bat 'mvn -version'
+                dir('Framework') {
+                    echo 'Checking Java and Maven versions...'
+                    bat 'java -version'
+                    bat 'mvn -version'
+                }
             }
         }
 
         stage('Build') {
             steps {
-                echo 'Compiling the project...'
-                bat 'mvn -B -DskipTests clean compile'
+                dir('Framework') {
+                    echo 'Compiling the project...'
+                    bat 'mvn -B -DskipTests clean compile'
+                }
             }
         }
 
         stage('Test') {
             steps {
-                echo 'Running TestNG tests...'
-                bat 'mvn -B test'
+                dir('Framework') {
+                    echo 'Running TestNG tests...'
+                    bat 'mvn -B test'
+                }
             }
         }
     }
@@ -42,8 +49,9 @@ pipeline {
     post {
         always {
             echo 'Collecting test reports...'
-            junit testResults: '**/target/surefire-reports/*.xml', allowEmptyResults: true
-            archiveArtifacts artifacts: '**/test-output/**', allowEmptyArchive: true
+            // Since the reports are inside Framework/, we adjust the path
+            junit testResults: '**/Framework/target/surefire-reports/*.xml', allowEmptyResults: true
+            archiveArtifacts artifacts: '**/Framework/test-output/**', allowEmptyArchive: true
         }
         success {
             echo '✅ Pipeline finished successfully.'
