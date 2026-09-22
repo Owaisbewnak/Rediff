@@ -1,0 +1,55 @@
+pipeline {
+    agent any
+
+    tools {
+        // These names MUST match what you set in
+        // Manage Jenkins -> Global Tool Configuration
+        jdk 'JDK11'
+        maven 'Maven3'
+    }
+
+    stages {
+
+        stage('Checkout') {
+            steps {
+                echo 'Code already checked out by Jenkins from GitHub.'
+            }
+        }
+
+        stage('Verify Environment') {
+            steps {
+                echo 'Checking Java and Maven versions...'
+                bat 'java -version'
+                bat 'mvn -version'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                echo 'Compiling the project...'
+                bat 'mvn -B -DskipTests clean compile'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                echo 'Running TestNG tests...'
+                bat 'mvn -B test'
+            }
+        }
+    }
+
+    post {
+        always {
+            echo 'Collecting test reports...'
+            junit testResults: '**/target/surefire-reports/*.xml', allowEmptyResults: true
+            archiveArtifacts artifacts: '**/test-output/**', allowEmptyArchive: true
+        }
+        success {
+            echo '✅ Pipeline finished successfully.'
+        }
+        failure {
+            echo '❌ Pipeline failed. Check the console output above.'
+        }
+    }
+}
