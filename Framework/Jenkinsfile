@@ -1,10 +1,9 @@
 pipeline {
     agent any
 
-    tools {
-        // Make sure these match your Global Tool Configuration!
-        jdk 'JDK11'
-        maven 'Maven3'
+        tools {
+        jdk 'MyJava'
+        maven 'My_Maven'
     }
 
     stages {
