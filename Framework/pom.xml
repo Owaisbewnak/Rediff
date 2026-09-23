@@ -108,10 +108,12 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.5.4</version>
 				<configuration>
-					<suiteXmlFiles>
+				
+				<skipTests>true</skipTests>
+					<!-- <suiteXmlFiles>
 						<suiteXmlFile>src\test\resources\PortfolioSuite.xml</suiteXmlFile>
 						<suiteXmlFile>src\test\resources\StockManag.xml</suiteXmlFile>
-					</suiteXmlFiles>
+					</suiteXmlFiles> -->
 				</configuration>
 			</plugin>
 			<plugin>

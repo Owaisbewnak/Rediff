@@ -102,7 +102,10 @@ public class BaseTest {
 	
 	@AfterMethod(alwaysRun = true)
 	public void afterMethod(ITestContext context) {
-		app.reportAll();
+		if (app != null) {
+			app.reportAll();
+		}
+		
 		
 	}
 }
